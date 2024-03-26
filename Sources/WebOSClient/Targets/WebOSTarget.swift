@@ -123,8 +123,8 @@ public enum WebOSTarget {
     /// Retrieves a list of available sources.
     case listSources
 
-    /// Previus chanel button press.
-    case previusChanel
+    /// Previous chanel button press.
+    case previousChanel
     
     /// Sets the TV source to the specified input ID.
     /// - Parameter inputId: The ID of the input source to be set.
