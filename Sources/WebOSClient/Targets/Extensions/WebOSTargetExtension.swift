@@ -72,6 +72,12 @@ extension WebOSTarget: WebOSTargetProtocol {
             return "ssap://tv/switchInput"
         case .previousChanel:
             return "ssap://tv/previousChannel"
+        case .getChannelCurrentProgramInfo:
+            return "ssap://tv/getChannelCurrentProgramInfo"
+        case .getChannelList:
+            return "ssap://tv/getChannelList"
+        case .getChannelProgramInfo:
+            return "ssap://tv/getChannelProgramInfo"
         default:
             return nil
         }

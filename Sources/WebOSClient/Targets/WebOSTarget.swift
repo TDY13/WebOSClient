@@ -126,6 +126,12 @@ public enum WebOSTarget {
     /// Previous channel button press.
     case previousChanel
     
+    case getChannelCurrentProgramInfo
+    
+    case getChannelList
+    
+    case getChannelProgramInfo
+    
     /// Sets the TV source to the specified input ID.
     /// - Parameter inputId: The ID of the input source to be set.
     case setSource(_ inputId: String)
