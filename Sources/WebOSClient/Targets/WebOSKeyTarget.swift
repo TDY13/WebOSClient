@@ -126,6 +126,9 @@ public enum WebOSKeyTarget: WebOSKeyTargetProtocol {
     
     /// Simulates a stop button press.
     case stop
+
+    /// Simulates a rec button press.
+    case record
     
     /// Simulates a rewind button press.
     case rewind
