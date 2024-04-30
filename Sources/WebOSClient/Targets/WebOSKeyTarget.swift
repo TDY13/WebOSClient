@@ -135,7 +135,4 @@ public enum WebOSKeyTarget: WebOSKeyTargetProtocol {
     
     /// Simulates a fast-forward button press.
     case fastForward
-
-    /// Simulates a record button press.
-    case record
 }
